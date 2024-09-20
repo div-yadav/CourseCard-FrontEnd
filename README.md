@@ -4,7 +4,7 @@
 
 
 After playing with JavaScript , making a bunch of projects, I decided to jump into TypeScript! It's all about the strict features and security stuff it offers , detecting and catching errors before your code even runs. Making this web page template was a great way to practice TypeScript and see how it makes code safer and easier to manage. 
-I tried to replicate a ui design from Dribble , well it might not be an exact one , or I might have done the rookie mistakes initially as this was developed in a time span of 2 days , but .. 
+I tried to replicate a ui design from Dribble [ link for that - https://dribbble.com/shots/23744797-Online-Education-Web-Platform ], well it might not be an exact one , or I might have done the rookie mistakes initially as this was developed in a time span of 2 days , but .. 
 ## it's all about the start !
 
 ## 📖 Table of Contents
