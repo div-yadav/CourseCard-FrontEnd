@@ -1,50 +1,77 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📄 Template for course content  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After playing with JavaScript , making a bunch of projects, I decided to jump into TypeScript! It's all about the strict features and security stuff it offers , detecting and catching errors before your code even runs. Making this web page template was a great way to practice TypeScript and see how it makes code safer and easier to manage. 
+I tried to replicate a ui design from Dribble , well it might not be an exact one , or I might have done the rookie mistakes initially as this was developed in a time span of 2 days , but .. 
+## it's all about the start !
 
-## Expanding the ESLint configuration
+## 📖 Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Tech Stack](#tech-stack)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Contributing](#contributing)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React**: Frontend library for building a dynamic and interactive user interface.
+- **Tailwind**: Utility-first CSS framework for rapidly building custom user interfaces.
+- **TypeScript**: Strongly-typed programming language that builds on JavaScript, adding optional static typing.
+- 
+## 📦 Dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+The project utilizes several third-party dependencies for various functionalities:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- `react-redux`: Official library for connecting React components to a Redux store for managing application state.
+- `react-router`-dom: Enables declarative routing and navigation within React applications.
+
+
+## ⚙️ Installation
+
+To get started with this project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+
+2. **Install Dependencies**:
+
+   ```bash
+   cd ../src
+   npm install
+   ```
+
+3. **Run the Application**:
+
+
+   Start the application:
+   ```bash
+   cd ../frontend
+   npm run dev
+   ```
+
+   The application should now be running at [http://localhost:5137](http://localhost:5137).
+
+
+## 🤝 Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue.
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Create a new Pull Request.
